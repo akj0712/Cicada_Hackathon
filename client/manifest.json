@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Privacy",
+  "version": "1.0",
+  "description": "A privacy extention!",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "index.html"
+  }
+}
